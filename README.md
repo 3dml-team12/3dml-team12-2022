@@ -10,7 +10,7 @@ This project is a submission for Machine Learning for 3D data course. We clearly
 You can also use `requirements.txt` for python libraries (supported by the official code).
 
 ## Data Preparation
-To train or inference, you must download the FFHQ dataset which is available in https://github.com/NVlabs/ffhq-dataset. You should modify `data=${DATASET}` to train or inference a model.
+To train or inference, you must download the FFHQ dataset which is available in https://github.com/NVlabs/ffhq-dataset or you can use Kaggle e.g. https://www.kaggle.com/datasets/xhlulu/flickrfaceshq-dataset-nvidia-resized-256px. You should modify `data=${DATASET}` to train or inference a model.
 
 ## Train
 ```bash
