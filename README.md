@@ -1,6 +1,6 @@
 # StyleNeRF: A Style-based 3D-Aware Generator for High-resolution Image Synthesis </sub>
 
-This project is a submission for Machine Learning for 3D data course. We mention the part we rewritten the code in the report and all others are directly borrowed from the official code. Note that the code is borrowed from https://github.com/facebookresearch/StyleNeRF. 
+This project is a submission for Machine Learning for 3D data course. We clearly state that our work is more closer to rewriting the code instead of implementation. All other parts except the part mentioned in the report are directly borrowed from the official code, remaining the whole pipeline. Note that the code is borrowed from https://github.com/facebookresearch/StyleNeRF. 
 
 ## Requirements
 * Python 3.7
@@ -10,7 +10,7 @@ This project is a submission for Machine Learning for 3D data course. We mention
 You can also use `requirements.txt` for python libraries (supported by the official code).
 
 ## Data Preparation
-To train or inference, you must download the FFHQ dataset. We provide the dataset as a zip file. You should modify `data=${DATASET}` to train or inference a model.
+To train or inference, you must download the FFHQ dataset which is available in https://github.com/NVlabs/ffhq-dataset. You should modify `data=${DATASET}` to train or inference a model.
 
 ## Train
 ```bash
@@ -26,6 +26,9 @@ CUDA_VISIBLE_DEVICES=0 python generate.py --outdir=outputs --trunc=0.7 --seeds=$
 ```bash
 CUDA_VISIBLE_DEVICES=0 python calc_metrics.py --metrics=fid50k_full --data=${DATASET} --mirror=1 --network=${CHECKPOINT_PATH}
 ```
+
+## Checkpoints
+https://drive.google.com/file/d/16S6ECLGpsRlv0XB1fBat3psN9vPnrT4w/view?usp=sharing, https://drive.google.com/file/d/1EjFfpotCLnEBwDtfqB4Fk3ncSPhr4bGQ/view?usp=sharing, https://drive.google.com/file/d/1IT3zz7_r4VqOmy9HCkqe1psUeR_NKACK/view?usp=sharing, https://drive.google.com/file/d/1nJ-gxi5XMs4Ex7_dOfWhcUYzF9ITwwkZ/view?usp=sharing
 
 ## License
 Copyright &copy; Facebook, Inc. All Rights Reserved.
