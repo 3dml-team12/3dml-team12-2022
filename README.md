@@ -1,6 +1,6 @@
 # StyleNeRF: A Style-based 3D-Aware Generator for High-resolution Image Synthesis </sub>
 
-This project is a submission for Machine Learning for 3D data course. We clearly state that our work is more closer to rewriting the code instead of implementation. All other parts except the part mentioned in the report are directly borrowed from the official code, remaining the whole pipeline. Note that the code is borrowed from https://github.com/facebookresearch/StyleNeRF. 
+This project is a submission for Machine Learning for 3D data course. We clearly state that our work is more closer to rewriting the code for small region with minor modification instead of implementation. All other parts except the part mentioned in the report are directly borrowed from the official code, remaining the whole pipeline. Note that the code is borrowed from https://github.com/facebookresearch/StyleNeRF. 
 
 ## Requirements
 * Python 3.7
